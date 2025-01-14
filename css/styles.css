@@ -12,3 +12,14 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.container {
+    width: var(--mobile);
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: var(--desktop);
+    }
+}
