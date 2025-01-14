@@ -1,3 +1,21 @@
+:root {
+    --violet: #733FC8;
+    --dark-grayish-blue: #48556A;
+    --dark-blackish-blue: #19202D;
+    --light-grayish-blue: #ECF2F8;
+    --white: #FFF;
+    --font-family: 'Barlow Semi Condensed', sans-serif;
+    --font-size-1: 1.25rem;
+    --font-size-2: 0.8125rem;
+    --font-size-3: 0.6875rem;
+    --line-height-1: 1.125rem;
+    --line-height-2: 0.8125rem;
+    --line-height-3: 0.6875rem;
+    --font-weight: 500;
+    --mobile: 375px;
+    --desktop: 1440px;
+}
+
 html {
     box-sizing: border-box;
 }
