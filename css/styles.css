@@ -18,6 +18,19 @@
     margin: 0 auto;
 }
 
+.testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials_item {
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    border-radius: 8px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
 @media screen and (min-width: 1440px) {
     .container {
         width: var(--desktop);
