@@ -18,7 +18,11 @@
     --spacing-112: 1.12rem;
     --spacing-150: 1.5rem;
     --spacing-160: 1.6rem;
+    --spacing-188: 1.88rem;
     --spacing-200: 2rem;
+    --spacing-440: 4.4rem;
+    --spacing-500: 5rem;
+    --spacing-1025: 10.25rem;
     --mobile: 375px;
     --desktop: 1440px;
 }
