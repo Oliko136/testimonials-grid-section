@@ -32,10 +32,12 @@
 }
 
 .testimonials_item.violet {
+    color: var(--white);
     background-color: var(--violet);
 }
 
 .testimonials_item.gray {
+    color: var(--white);
     background-color: var(--dark-grayish-blue);
 }
 
@@ -44,6 +46,7 @@
 }
 
 .testimonials_item.black {
+    color: var(--white);
     background-color: var(--dark-blackish-blue);
 }
 
