@@ -23,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-150);
-    margin: 4.4rem auto;
+    margin: var(--spacing-440) auto;
 }
 
 .testimonials_item {
@@ -45,7 +45,7 @@
     content: "";
     position: absolute;
     top: 0;
-    right: 1.5rem;
+    right: var(--spacing-150);
     width: 104px;
     height: 102px;
     background-image: url(/images/bg-pattern-quotation.svg);
@@ -116,11 +116,50 @@
         width: var(--desktop);
     }
 
+    .testimonials {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "daniel daniel jonathan kira"
+            "jeanette patrick patrick kira";
+        justify-content: center;
+        gap: var(--spacing-150) var(--spacing-188);
+        width: 1110px;
+        margin: var(--spacing-1025) auto;
+    }
+
+    .testimonials_item {
+        justify-self: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    #daniel {
+        grid-area: daniel;
+    }
+
+    #jonathan {
+        grid-area: jonathan;
+    }
+
+    #jeanette {
+        grid-area: jeanette;
+    }
+
+    #patrick {
+        grid-area: patrick;
+    }
+
+    #kira {
+        grid-area: kira;
+    }
+
     .testimonials_title {
         margin-bottom: var(--spacing-150);
     }
 
     .testimonials_item.violet::before {
-        left: 5rem;
+        right: var(--spacing-500);
     }
 }
