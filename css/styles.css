@@ -51,6 +51,11 @@
     background-color: var(--dark-blackish-blue);
 }
 
+.testimonials_item.violet .testimonials_img,
+.testimonials_item.black .testimonials_img {
+    border: 2px solid #A775F1;
+}
+
 .testimonials_head {
     display: flex;
     align-items: center;
