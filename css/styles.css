@@ -33,8 +33,20 @@
 }
 
 .testimonials_item.violet {
+    position: relative;
     color: var(--white);
     background-color: var(--violet);
+}
+
+.testimonials_item.violet::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+    width: 104px;
+    height: 102px;
+    background-image: url(/images/bg-pattern-quotation.svg);
+    opacity: 0.5;
 }
 
 .testimonials_item.gray {
@@ -103,5 +115,9 @@
 
     .testimonials_title {
         margin-bottom: var(--spacing-150);
+    }
+
+    .testimonials_item.violet::before {
+        left: 5rem;
     }
 }
