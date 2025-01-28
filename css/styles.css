@@ -31,6 +31,22 @@
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
 }
 
+.testimonials_item.violet {
+    background-color: var(--violet);
+}
+
+.testimonials_item.gray {
+    background-color: var(--dark-grayish-blue);
+}
+
+.testimonials_item.white {
+    background-color: var(--white);
+}
+
+.testimonials_item.black {
+    background-color: var(--dark-blackish-blue);
+}
+
 .testimonials_img {
     width: 28px;
     height: 28px;
