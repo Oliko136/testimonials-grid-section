@@ -12,6 +12,13 @@
     --line-height-2: 0.8125rem;
     --line-height-3: 0.6875rem;
     --font-weight: 500;
+    --spacing-25: 0.25rem;
+    --spacing-100: 1rem;
+    --spacing-106: 1.06rem;
+    --spacing-112: 1.12rem;
+    --spacing-150: 1.5rem;
+    --spacing-160: 1.6rem;
+    --spacing-200: 2rem;
     --mobile: 375px;
     --desktop: 1440px;
 }
